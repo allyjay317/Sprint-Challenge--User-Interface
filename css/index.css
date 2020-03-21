@@ -255,3 +255,17 @@ textarea{
 .phone {
     font-style: italic;
 }
+
+/* change max to min to see mobile version*/
+@media only screen and (max-device-width: 480px) {
+	[class*="line"] {
+		width: 100%;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	[class*="flexBox"] {
+		width: 100%;
+    }
+    
+    
+}
