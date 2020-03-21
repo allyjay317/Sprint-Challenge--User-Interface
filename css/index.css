@@ -193,3 +193,11 @@ header img {
 .c10{
     background: dodgerblue;
 }
+.about-top{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.line {
+    display: flex;
+}
