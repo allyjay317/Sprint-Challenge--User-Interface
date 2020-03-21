@@ -244,8 +244,14 @@ header img {
     width: 100px;
     height: 100px;
 }
-.blogPost textarea{
+textarea{
     width: 100%;
     height: 100px;
     margin-top: 20px;
+}
+.middle-content input[type=submit] {
+    margin-bottom: 30px;
+}
+.phone {
+    font-style: italic;
 }
