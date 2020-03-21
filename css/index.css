@@ -200,4 +200,24 @@ header img {
 }
 .line {
     display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    
+}
+.flexBox{
+    width: 47%;
+    position: relative;
+    border-bottom: 1px dashed black;
+}
+.flexBox p{
+    padding-bottom: 70px;
+}
+.flexBox a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
 }
