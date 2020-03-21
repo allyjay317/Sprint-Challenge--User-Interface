@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,130 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in;
+}
+nav a:hover{
+    text-shadow: 1px 1px black;
+}
+header img {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+.shrink {
+    height: 175px;
+    object-fit: cover;
+}
+
+.c1 {
+    background:  teal;
+}
+
+.c2 {
+    background: gold;
+}
+.c3 {
+    background: cadetblue;
+}
+.c4 {
+    background: coral;
+}
+.c5 {
+    background: crimson;
+}
+.c6 {
+    background: forestgreen;
+}
+.c7 {
+    background: darkorchid;
+}
+.c8 {
+    background: hotpink;
+}
+.c9 {
+    background: indigo;
+}
+.c10{
+    background: dodgerblue;
+}
+.about-top{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    
+}
+.flexBox{
+    width: 47%;
+    position: relative;
+    border-bottom: 1px dashed black;
+}
+.flexBox p{
+    padding-bottom: 70px;
+}
+.flexBox a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+}
+.about-bottom{
+    margin: 5% 2%;
+}
+.blog{
+    position: relative;
+}
+.blogPost{
+    border-top: 2px solid black;
+    margin: 50px auto;
+    padding-top: 50px;
+    
+}
+.blogPost img {
+    width: 100px;
+    height: 100px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+.middle-content input[type=submit] {
+    margin-bottom: 30px;
+}
+.phone {
+    font-style: italic;
+}
+
+/* change max to min to see mobile version*/
+@media only screen and (max-device-width: 480px) {
+	[class*="line"] {
+		width: 100%;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	[class*="flexBox"] {
+		width: 100%;
+    }
+    
+    
 }
