@@ -161,6 +161,10 @@ header img {
     margin-left: 5%;
     margin-bottom: 30px;
 }
+.shrink {
+    height: 175px;
+    object-fit: cover;
+}
 
 .c1 {
     background:  teal;
